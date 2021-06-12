@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;
+
+500&family=Roboto&display=swap);.info-view-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.info-view-container .description {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 2rem;
+  margin-top: 0.5rem;
+  border: 0.8px solid #999999;
+  border-radius: 6px;
+  box-shadow: 0px 3px 5px #333333;
+}
+
+.info-view-container .description p {
+  font-size: 1.1rem;
+  color: #333333;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.info-view-container .description span {
+  font-size: 1rem;
+  color: #797979;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.info-view-container .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.info-view-container .container h4 {
+  display: block;
+  color: #003bc3;
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  padding-left: 0px;
+}
+
+.info-view-container .container p {
+  color: #333333;
+}
+
+.info-view-container .container .numbers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info-view-container .container .numbers h4 {
+  display: inline-block;
+}
+
+.info-view-container .container .numbers p {
+  text-align: center;
+  margin-right: 0.4rem;
+  display: inline-block;
+}
+
+.info-view-container h2 {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: black;
+  text-align: center;
+  background-color: #bbbbbb;
+  border-radius: 3px;
+  padding: 0.4rem 0;
+}
+
+.info-view-container .first-row {
+  display: grid;
+  grid-template-columns: 40% 58%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 1rem;
+  max-width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.info-view-container .first-row .general,
+.info-view-container .first-row .formation {
+  box-shadow: 1px 3px 5px #333333;
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+.info-view-container .about,
+.info-view-container .other {
+  box-shadow: 1px 3px 5px #333333;
+  padding: 1rem;
+  border-radius: 7px;
+  margin-bottom: 1.2rem;
+}
+
+.info-view-container .about .hobbie,
+.info-view-container .about .skill,
+.info-view-container .other .hobbie,
+.info-view-container .other .skill {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info-view-container .about .hobbie p,
+.info-view-container .about .skill p,
+.info-view-container .other .hobbie p,
+.info-view-container .other .skill p {
+  margin-right: 0.5rem;
+}
+

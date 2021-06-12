@@ -1,0 +1,15 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/nav.css": "/css/nav.css",
+    "/css/main.css": "/css/main.css",
+    "/css/perfil-header.css": "/css/perfil-header.css",
+    "/css/post-form-style.css": "/css/post-form-style.css",
+    "/css/publication.css": "/css/publication.css",
+    "/css/info-form.css": "/css/info-form.css",
+    "/css/info-view.css": "/css/info-view.css",
+    "/css/album.css": "/css/album.css",
+    "/css/friends.css": "/css/friends.css",
+    "/css/comment.css": "/css/comment.css",
+    "/css/news.css": "/css/news.css",
+    "/css/notifications.css": "/css/notifications.css"
+}

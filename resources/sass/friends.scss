@@ -1,0 +1,82 @@
+.friends-container {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #b4b4b4;
+    border-radius: 7px;
+
+    .toggle {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        border-bottom: 1px solid #b4b4b4;
+
+        a {
+            padding: 10px 12px;
+            width: 100%;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #333333;
+            letter-spacing: 1px;
+            text-align: center;
+            border-right: 1px solid transparent;
+            &:hover {
+                border-right: 1px solid #b4b4b4;
+                background-color: #cccccc;
+                border-top: none;
+                border-left: none;  
+                color: black;
+            }
+        }
+    }
+
+    .list {
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .8rem;
+
+        .person {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1rem 2rem;
+            border: 1px solid #cccccc;
+            border-radius: 7px;
+
+            img {
+                width: 120px;
+                height: 100px;
+                border-radius: 6px;
+                margin: 0;
+                padding: 0;
+                cursor: pointer;
+                &:hover {
+                    opacity: 0.90;
+                }
+            }
+
+            a {
+                color: #000000cc;
+                font-size: 1.2rem;
+                font-weight: bold;
+                padding: .3rem;
+                letter-spacing: 1px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            
+            small {
+                text-decoration: none !important;
+                color: #aaaaaa;
+                font-size: .92rem;
+            }
+        }
+
+        h3 {
+            font-size: 1rem;
+            color: black;
+        }
+    }
+}

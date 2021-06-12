@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&family=Roboto&display=swap');
+
+.form-info-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($color: #000000, $alpha: .75);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        background-color: #ffffff;
+        width: 85%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #bbbbbb;
+        border-radius: 6px;
+        position: relative;
+
+        .header {
+            background-color: #ececec;
+            padding: .55rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0 !important;
+
+            h3 {
+                color: #333333;
+                font-size: 1.4rem;
+                font-weight: bold;
+                font-family: 'Roboto', sans-serif;
+                i {
+                    margin: .8rem;
+                    border-bottom: 1px solid #cfcfcf;
+                }
+            }
+
+            .far.fa-times-circle {
+                color: black;
+                font-size: 1.6rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
+                margin-right: .5rem;
+                cursor: pointer;
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+
+
+        .main {
+            display: grid;
+            grid-template-columns: 25% 75%;
+            grid-template-rows: 100%;
+            margin: 0;
+
+            .menu-toggle {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+
+                button {
+                    width: 100%;
+                    height: 55px;
+                    padding: .4rem 1rem;
+                    background-color: transparent;
+                    font-size: 1.1rem;
+                    color: #6e6e6e;
+                    letter-spacing: 1px;
+                    font-weight: normal;
+                    font-family: 'Roboto', sans-serif;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: #cfcfcf;
+                        color: black;
+                    }
+                }
+            }
+
+            form {
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                padding: 1.5rem;
+                border-left: 1px solid #ececec;
+
+                label {
+                    font-size: 1.2rem;
+                    font-family: 'Roboto', sans-serif;
+                    color: black;
+                    letter-spacing: 1px;
+                    display: block;
+                    margin: .4rem 0;
+                    margin-top: .65rem;
+                }
+
+                input, textarea {
+                    border: none;
+                    outline: none;
+                    height: 35px;
+                    font-size: 1rem;
+                    color: #6e6e6e;
+                    border: 1px solid #cfcfcf;
+                    border-radius: 6px;
+                    padding-left: 1rem;
+                    width: 80%;
+                    resize: none;
+                    &:focus {
+                        border: 1.4px solid #0077ff;
+                    }
+                    &::placeholder {
+                        font-style: italic;
+                    }
+                }
+
+                textarea {
+                    height: 100px;
+                    padding: .6rem;
+                }
+
+                .hobbies, .skills {
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-rows: 1fr;
+                    margin: .75rem 0;
+
+                    input {
+                        width: 90%;
+                    }
+                }
+
+                input[type=submit] {
+                    background-color: #ffffff;
+                    color: #0077ff;
+                    border: 1px solid #0077ff;
+                    font-weight: bold;
+                    position: absolute;
+                    bottom: 1.5rem;
+                    width: 350px;
+                    right: 2rem;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: #0077ff;
+                        color: #ffffff;
+                    }
+                }
+            } 
+        }
+    }
+}

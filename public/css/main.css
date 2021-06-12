@@ -1,0 +1,79 @@
+.content-body .container {
+  display: grid;
+  grid-template-columns: 20% 45% 35%;
+  grid-template-rows: 1fr;
+}
+
+.content-body .container .side-left {
+  padding: 1rem;
+}
+
+.content-body .container .side-right {
+  padding: 1rem;
+}
+
+.content-body .container main {
+  padding: 1rem 1rem;
+}
+
+.content-body .container main .create-post {
+  border-radius: 5px;
+}
+
+.content-body .container main .create-post .header {
+  padding: 0.25rem 1rem;
+  background-color: #e6e6e6;
+  border: 1px solid #909090;
+}
+
+.content-body .container main .create-post .header h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+
+.content-body .container main .create-post .text {
+  border: 1px solid #909090;
+  background-color: #ffffff;
+  border-top: none;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-body .container main .create-post .text input {
+  width: 75%;
+  padding: 5px 14px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.content-body .container main .create-post .text input::-moz-placeholder {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+.content-body .container main .create-post .text input:-ms-input-placeholder {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+.content-body .container main .create-post .text input::-ms-input-placeholder {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+.content-body .container main .create-post .text input::placeholder {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+.content-body .container main .create-post .text i {
+  font-size: 2.8rem;
+  color: #c4c4c4;
+  margin: 0 0.5rem;
+}
+
